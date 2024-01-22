@@ -1,0 +1,20 @@
+.container{
+    /* width: 20vh;
+    height: 10vh; */
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 2vh;
+    transition: all .5s;
+
+}
+.container a{
+    font-family: 'Anton', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+}
+.container:hover{
+    border: 2px solid white;
+    border-radius: 2vh;
+}

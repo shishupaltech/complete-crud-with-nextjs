@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1vh;
+    height: 10vh;
+    /* background-color: red; */
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    gap:3vh;
+}
+.logo{
+    cursor: pointer;
+    transition: all 0.5s;
+    font-family: 'Anton', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+}
+.logo:hover{
+    transform:scale(0.9);
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    gap: 3vh;
+    font-family: 'Anton', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.login,.signup{
+    padding: 2vh;
+}
+.login:hover,.signup:hover{
+    border-radius: 2vh;
+    background-image: linear-gradient(to right, rgb(66, 53, 122) , rgb(54, 205, 231));
+}

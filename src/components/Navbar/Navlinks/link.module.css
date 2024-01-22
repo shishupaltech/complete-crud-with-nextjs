@@ -1,0 +1,7 @@
+.container{
+    display: flex;
+    /* max-width: 200vh;
+    height: 10vh; */
+    justify-content: space-around;
+    gap: 2.4vh;
+}

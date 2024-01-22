@@ -1,0 +1,68 @@
+.container{
+    margin-top:10vh;
+    margin-left:30vw;
+    display: flex;
+    flex-direction: column; 
+    width: 40vw;
+    height: 60vh;
+    background-color: rgb(33, 84, 126);
+    padding: 2vh;
+    border: 2px solid var(--bg);
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 20px 10px rgb(244, 248, 251); */
+}
+.input{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.input input{
+    width: 25vw;
+    margin-bottom: 2vh;
+    color: black;
+}
+.image{
+    text-align:center;
+    padding:3%;
+    border:thin solid white;
+  }
+  
+ .image input[type="file"]{
+    display: none;
+  }
+
+ .image  label{
+    cursor:pointer;
+  }
+  .image img{
+    width: 30vw;
+    height: 15vh;
+    
+    margin: auto;
+  }
+  .btns{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 10vw;
+    height: 6vh;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+
+    background-color: rgb(190, 184, 184);
+    border-radius: 20px;
+    transition:0.3s;
+    margin: auto;
+  }
+
+  .btns:hover{
+
+    background-image: linear-gradient(to right, rgb(66, 53, 122) , rgb(54, 205, 231));
+  }
